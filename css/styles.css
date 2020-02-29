@@ -38,7 +38,17 @@ footer {
 #carouselButton {
   position: absolute;
   right: 0;
-  bottom: 0; }
+  bottom: 0; 
+  z-index: 1000;}
 
 header h2 {
   color: #CEC8FF; }
+
+#loginButton {
+  cursor: pointer;
+}
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white;
+}
